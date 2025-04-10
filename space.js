@@ -92,7 +92,7 @@ function update() {
         context.fillStyle = "red";
         context.font = "25px arial";
         context.fillText("Game Over", 200, 200);
-        context.fillText(`Your final score is ${score}`, 300, 200);
+        context.fillText(`Your final score is ${score}`, 150, 300);
         gameOver = true;
       }
     }
